@@ -1,0 +1,17 @@
+{
+    "name": "tnmdev/utils",
+    "description": "Dev Utilities",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TNM Developers"
+            "email": "developers@tnm.co.mw"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "TNM\\Utils\\": "src/"
+    }
+}
