@@ -12,6 +12,8 @@
     "minimum-stability": "stable",
     "require": {},
     "autoload": {
-        "TNM\\Utils\\": "src/"
+        "psr-4": {
+            "TNM\\Utils\\": "src/"
+        }
     }
 }
