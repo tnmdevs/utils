@@ -5,7 +5,7 @@ namespace TNM\Utils\Factories;
 class TransactionIDFactory
 {
     private int $length;
-    private string $prefix;
+    private ?string $prefix;
 
     public function __construct(int $length = 18, ?string $prefix = null)
     {
