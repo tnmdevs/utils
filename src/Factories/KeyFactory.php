@@ -15,7 +15,7 @@ class KeyFactory
 
     public function make(): string
     {
-        $characters = $this->numeric ? "0123456789" : '23456789abcdefghijkmnpqrstuvwxyz';
+        $characters = $this->numeric ? "0123456789" : '0123456789abcdefghijkmnpqrstuvwxyz';
 
         $charactersLength = strlen($characters);
         $randomString = '';
