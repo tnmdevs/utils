@@ -15,7 +15,7 @@ class TransactionIDFactory
 
     public function make(): string
     {
-        return substr(sprintf("%s%s%s", $this->prefix, $this->getTime(), $this->getSuffix()), 0, $this->length);
+        return uniqid($this->prefix);
     }
 
     private function getTime(): int
